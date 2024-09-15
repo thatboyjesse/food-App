@@ -1,0 +1,88 @@
+.gen{
+    width: 270px;
+    padding: 15px 0 15px 20px;
+    margin: 5px auto;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+#btn{
+    margin: 20px auto;
+    padding: 10px 30px;
+    color: #111;
+    background: white;
+    border: 1px solid #111;
+    border-radius: 5px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+}
+@font-face {
+    font-family: mainFont;
+    src: url(/wellsfargosans-lt.woff2);
+}
+@font-face {
+    font-family: altFont;
+    src: url(/wellsfargosans-bd.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: mainFont;
+    color: #111;
+    text-decoration: none;
+}
+.nav_text span{
+    padding: 19px 0;
+    transition: .6s ease-in-out;
+}
+.flex{
+    display: flex;
+}
+.logo{
+    padding: 20px 0;
+}
+.flex_d{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.align-items{
+    align-items: center;
+    display: flex;
+}
+.settings{
+    justify-content: space-between;
+    display: flex;
+}
+.width{
+    width: 90%;
+    margin: auto;
+}
+.nav_text{
+    gap: 30px;
+    display: flex;
+    width: 60%;
+}
+nav{
+    /* border-bottom: .6px solid #f2f2f2; */
+    padding: 1px;
+}
+.bold{
+    font-weight: 600;
+}
+.bg{
+    background: url(/Winter23-DotCom-ChickenSandwich-D_720x748.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
